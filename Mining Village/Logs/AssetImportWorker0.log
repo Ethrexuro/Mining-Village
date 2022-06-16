@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/quang/OneDrive/Desktop/Mining Village
+C:/Users/quang/OneDrive/Desktop/Mining-Village/Mining Village
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62304
-Successfully changed project path to: C:/Users/quang/OneDrive/Desktop/Mining Village
-C:/Users/quang/OneDrive/Desktop/Mining Village
+53553
+Successfully changed project path to: C:/Users/quang/OneDrive/Desktop/Mining-Village/Mining Village
+C:/Users/quang/OneDrive/Desktop/Mining-Village/Mining Village
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/quang/OneDrive/Desktop/Mining Village/Assets
+[Subsystems] Discovering subsystems at path C:/Users/quang/OneDrive/Desktop/Mining-Village/Mining Village/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001450 seconds.
+Registered in 0.001565 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 27.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.505 seconds
+- Completed reload, in  0.617 seconds
 Domain Reload Profiling:
-	ReloadAssembly (506ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (617ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (394ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (147ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (166ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (27ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (78ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (88ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,36 +75,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003706 seconds.
+Registered in 0.003874 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.922 seconds
+- Completed reload, in  1.046 seconds
 Domain Reload Profiling:
-	ReloadAssembly (923ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (720ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (269ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (301ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,15 +112,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.5 MB.
-System memory in use after: 67.5 MB.
+Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.4 MB.
+System memory in use after: 76.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1934.
-Total: 2.736300 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.323400 ms  DeleteObjects: 0.062800 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 3.420000 ms (FindLiveObjects: 0.132400 ms CreateObjectMapping: 0.059700 ms MarkObjects: 3.142200 ms  DeleteObjects: 0.084600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,909 +135,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Jiangxi Mining Village Map.fbx
-  artifactKey: Guid(549ae4ad1ece6b64a92c8086e648472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiangxi Mining Village Map.fbx using Guid(549ae4ad1ece6b64a92c8086e648472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e0de8d30313e64ec4299c12547ac15') in 0.371300 seconds 
-  Import took 0.374888 seconds .
+  path: Assets/UV Clothes Hangers/New Material.mat
+  artifactKey: Guid(2447977fda01eeb479c7204b80a41bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UV Clothes Hangers/New Material.mat using Guid(2447977fda01eeb479c7204b80a41bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a0b1cf6dbae61e9c6cb7e3c67199eb') in 0.124231 seconds 
+  Import took 0.128141 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.105770 seconds.
-  path: Assets/Jiangxi Mining Village Map.fbx
-  artifactKey: Guid(549ae4ad1ece6b64a92c8086e648472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiangxi Mining Village Map.fbx using Guid(549ae4ad1ece6b64a92c8086e648472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd101ae85a9c10af34bdc339bf1df60') in 0.114402 seconds 
-  Import took 0.118329 seconds .
+  Time since last request: 23.136390 seconds.
+  path: Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Lite Standard (Specular setup) Cutout.shader
+  artifactKey: Guid(0e0019510d6142644b412d07db9dee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ciconia Studio/Shaders/Standard Shaders/BuiltIn/CS_Lite Standard (Specular setup) Cutout.shader using Guid(0e0019510d6142644b412d07db9dee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f6837a1487afb19b3e55138a9c67d2') in 0.009023 seconds 
+  Import took 0.014422 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 11.089543 seconds.
-  path: Assets/Jiangxi Mining Village Map.fbx
-  artifactKey: Guid(549ae4ad1ece6b64a92c8086e648472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jiangxi Mining Village Map.fbx using Guid(549ae4ad1ece6b64a92c8086e648472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a79c6a0e23311116c80d8807ae38a9') in 0.109966 seconds 
-  Import took 0.112954 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003779 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.880 seconds
-Domain Reload Profiling:
-	ReloadAssembly (880ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (728ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (249ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.9 MB.
-System memory in use after: 71.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1979.
-Total: 2.469500 ms (FindLiveObjects: 0.146400 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.208900 ms  DeleteObjects: 0.015700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 434.228896 seconds.
-  path: Assets/Butter Barrel.fbx
-  artifactKey: Guid(3b13a6d0d97d34147a7b12c7185d93b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Butter Barrel.fbx using Guid(3b13a6d0d97d34147a7b12c7185d93b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72c3b3222b266c6a790e3947a404186') in 0.067012 seconds 
-  Import took 0.070616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.684909 seconds.
-  path: Assets/Cargo Bag.fbx
-  artifactKey: Guid(8e7b67aaeeaf22648a1cc0156beae5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cargo Bag.fbx using Guid(8e7b67aaeeaf22648a1cc0156beae5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d75fc52019d6b6300d0c9fe2e4d699') in 0.032003 seconds 
-  Import took 0.035482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.837120 seconds.
-  path: Assets/Clothes Hangers.fbx
-  artifactKey: Guid(9d3c6d7213b3ba443903796d1c58f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clothes Hangers.fbx using Guid(9d3c6d7213b3ba443903796d1c58f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a901ef3dd4d2254df1db015f7ebc2398') in 0.030886 seconds 
-  Import took 0.033822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.746919 seconds.
-  path: Assets/Tibetan Banners.fbx
-  artifactKey: Guid(6b2f86dd479170344b8e79c08c9106bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Banners.fbx using Guid(6b2f86dd479170344b8e79c08c9106bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe7795dbed4ec690ae083991f5130bc') in 0.027111 seconds 
-  Import took 0.030345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.323224 seconds.
-  path: Assets/Tibetan Fortified Houses 3.0.blend1
-  artifactKey: Guid(0b3b10b3433a25643bf4e38d6e75590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Fortified Houses 3.0.blend1 using Guid(0b3b10b3433a25643bf4e38d6e75590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a75e760ac2cef95ad5ebf5a328f28e5') in 0.010194 seconds 
-  Import took 0.013608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.136501 seconds.
-  path: Assets/Tibetan Fortified Houses V3.0.fbx
-  artifactKey: Guid(32d1f1553f97d1b4baf2e44f360ca880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Fortified Houses V3.0.fbx using Guid(32d1f1553f97d1b4baf2e44f360ca880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3048ea134d42916c64209132e5340cf8') in 0.019452 seconds 
-  Import took 0.021888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.444402 seconds.
-  path: Assets/Tibetan Gate V3.0.fbx
-  artifactKey: Guid(4b9734cd83c4dbb46993309ed1e949a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Gate V3.0.fbx using Guid(4b9734cd83c4dbb46993309ed1e949a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc69e9bfc92b56fd860432bfc587f488') in 0.021466 seconds 
-  Import took 0.024250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.757571 seconds.
-  path: Assets/Tibetan Governor House V3.0.fbx
-  artifactKey: Guid(60973e04f845ade4b9ca12a8d197a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Governor House V3.0.fbx using Guid(60973e04f845ade4b9ca12a8d197a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e22fbe83ca2e2589868c3d7a2005c3') in 0.023486 seconds 
-  Import took 0.026462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.148936 seconds.
-  path: Assets/Tibetan Wagon.fbx
-  artifactKey: Guid(924d3737e4a5980409de0c46c981a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Wagon.fbx using Guid(924d3737e4a5980409de0c46c981a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa8eb997db06bd80f0c1945993f2317') in 0.041404 seconds 
-  Import took 0.044111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.263040 seconds.
-  path: Assets/Tibetan Warehouse V3.0.fbx
-  artifactKey: Guid(4fe8e6f17daa3e149a7e6ec8713399e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Warehouse V3.0.fbx using Guid(4fe8e6f17daa3e149a7e6ec8713399e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310a68eb180d40d7d4ddb90c91b40773') in 0.019649 seconds 
-  Import took 0.022238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.733327 seconds.
-  path: Assets/Tibetan WatchTower.obj
-  artifactKey: Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan WatchTower.obj using Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575136a8d8970ac2294eedd40243be71') in 0.027252 seconds 
-  Import took 0.030239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.723004 seconds.
-  path: Assets/Tibetan Governor House V3.0.fbx
-  artifactKey: Guid(60973e04f845ade4b9ca12a8d197a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Governor House V3.0.fbx using Guid(60973e04f845ade4b9ca12a8d197a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8343f07e9e9333dc3863c1a097243e60') in 0.035882 seconds 
-  Import took 0.039519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.353463 seconds.
-  path: Assets/Tibetan Fortified Houses V3.0.fbx
-  artifactKey: Guid(32d1f1553f97d1b4baf2e44f360ca880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Fortified Houses V3.0.fbx using Guid(32d1f1553f97d1b4baf2e44f360ca880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b560c823f3381524a59a19ba4c9b3a4') in 0.021219 seconds 
-  Import took 0.025585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.041194 seconds.
-  path: Assets/Tibetan Fortified Houses V3.0.fbx
-  artifactKey: Guid(32d1f1553f97d1b4baf2e44f360ca880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Fortified Houses V3.0.fbx using Guid(32d1f1553f97d1b4baf2e44f360ca880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df5c6fb2afd2fd127591fcb8f45ced9') in 0.013658 seconds 
-  Import took 0.016862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 125.837843 seconds.
-  path: Assets/Tibetan WatchTower.obj
-  artifactKey: Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan WatchTower.obj using Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e6800f626c681ce02a5ab30bd3093d') in 0.026781 seconds 
-  Import took 0.030366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.358211 seconds.
-  path: Assets/Tibetan WatchTower.obj
-  artifactKey: Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan WatchTower.obj using Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca829a37fbefbb30440fd5c335af0280') in 0.026193 seconds 
-  Import took 0.028973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.199681 seconds.
-  path: Assets/Tibetan WatchTower.obj
-  artifactKey: Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan WatchTower.obj using Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c51ef5de5cd9899d74898c91a7d83a') in 0.030732 seconds 
-  Import took 0.035453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.506122 seconds.
-  path: Assets/Tibetan WatchTower.obj
-  artifactKey: Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan WatchTower.obj using Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f47af1db70ae404abc1879f06f754c') in 0.022197 seconds 
-  Import took 0.025389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.641749 seconds.
-  path: Assets/Tibetan WatchTower.obj
-  artifactKey: Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan WatchTower.obj using Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862a2bc5a559ddbad22022c102d2b8e5') in 0.026170 seconds 
-  Import took 0.028814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.083348 seconds.
-  path: Assets/Tibetan WatchTower.obj
-  artifactKey: Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan WatchTower.obj using Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bdbac1f5711724755bc09a63e28ac9') in 0.044025 seconds 
-  Import took 0.046701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.151912 seconds.
-  path: Assets/Tibetan WatchTower.obj
-  artifactKey: Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan WatchTower.obj using Guid(83fe16e8171fe4d45b116fea0c10990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5973c2ded97dee2c445b16ec1403a4') in 0.020695 seconds 
-  Import took 0.023281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.593696 seconds.
-  path: Assets/Tibetan Wagon.fbx
-  artifactKey: Guid(924d3737e4a5980409de0c46c981a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Wagon.fbx using Guid(924d3737e4a5980409de0c46c981a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9814866181abda6848b0a9f37a78954') in 0.031145 seconds 
-  Import took 0.035167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.980535 seconds.
-  path: Assets/Tibetan Wagon.fbx
-  artifactKey: Guid(924d3737e4a5980409de0c46c981a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Wagon.fbx using Guid(924d3737e4a5980409de0c46c981a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf7398a749a935858114e49b8f3d7f2') in 0.028182 seconds 
-  Import took 0.031336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.065615 seconds.
-  path: Assets/Tibetan Wagon.fbx
-  artifactKey: Guid(924d3737e4a5980409de0c46c981a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Wagon.fbx using Guid(924d3737e4a5980409de0c46c981a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68407be58fb2d2e2bc958d2f513f0c5') in 0.026776 seconds 
-  Import took 0.030671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.462290 seconds.
-  path: Assets/Tibetan Banners.fbx
-  artifactKey: Guid(6b2f86dd479170344b8e79c08c9106bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Banners.fbx using Guid(6b2f86dd479170344b8e79c08c9106bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f8ee6c6dca7bfc32f08caba3d3f829') in 0.028821 seconds 
-  Import took 0.032766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.120489 seconds.
-  path: Assets/Tibetan Banners.fbx
-  artifactKey: Guid(6b2f86dd479170344b8e79c08c9106bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Banners.fbx using Guid(6b2f86dd479170344b8e79c08c9106bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6996b296523f549f833921e92aca17b3') in 0.034793 seconds 
-  Import took 0.037833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 397.164129 seconds.
-  path: Assets/Tibetan Gate V3.0.fbx
-  artifactKey: Guid(4b9734cd83c4dbb46993309ed1e949a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Gate V3.0.fbx using Guid(4b9734cd83c4dbb46993309ed1e949a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181f4d4a19b405bf7104693bf9ac483e') in 0.025610 seconds 
-  Import took 0.029097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.895153 seconds.
-  path: Assets/Tibetan Gate V3.0.fbx
-  artifactKey: Guid(4b9734cd83c4dbb46993309ed1e949a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Gate V3.0.fbx using Guid(4b9734cd83c4dbb46993309ed1e949a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bb37a122b5a652968f42612dd07c0e') in 0.025331 seconds 
-  Import took 0.028309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.446691 seconds.
-  path: Assets/Tibetan Gate V3.0.fbx
-  artifactKey: Guid(4b9734cd83c4dbb46993309ed1e949a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Gate V3.0.fbx using Guid(4b9734cd83c4dbb46993309ed1e949a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d65c064a76f51cc5267afec5dcface') in 0.026455 seconds 
-  Import took 0.029807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2249.729665 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.005828 seconds 
-  Import took 0.009328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.478417 seconds.
-  path: Assets/UV Tibetan Gate
-  artifactKey: Guid(9b93f8dbb7c47f549a70101ce266daa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Gate using Guid(9b93f8dbb7c47f549a70101ce266daa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d634cc472aeeb6ab6b8d80965d99e06') in 0.007515 seconds 
-  Import took 0.011005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.629617 seconds.
-  path: Assets/UV Tibetan Banners/Material.001_Base_Color.png
-  artifactKey: Guid(27e9f0e06df372b40a5320ae612149e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Banners/Material.001_Base_Color.png using Guid(27e9f0e06df372b40a5320ae612149e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32300dcf469ff9311a624ac6089ad5a6') in 0.023110 seconds 
-  Import took 0.027032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/UV Tibetan Banners/Material.001_Normal.png
-  artifactKey: Guid(d2f9ff7ebe1d31942b3be877491a38c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Banners/Material.001_Normal.png using Guid(d2f9ff7ebe1d31942b3be877491a38c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755cedc1dbc6f16623b8be68aad3be13') in 0.010500 seconds 
-  Import took 0.013894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/UV Tibetan Banners/Material.001_Normal_OpenGL.png
-  artifactKey: Guid(b1a69c9923bf66441a627a618bf2369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Banners/Material.001_Normal_OpenGL.png using Guid(b1a69c9923bf66441a627a618bf2369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2888c362c24bdd496bde6e3059e607d') in 0.020897 seconds 
-  Import took 0.024511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/UV Tibetan Banners/Material.001_Roughness.png
-  artifactKey: Guid(0aab97ae393d98f449ac0d876dc52616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Banners/Material.001_Roughness.png using Guid(0aab97ae393d98f449ac0d876dc52616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01959a5274dc91772f0234c651c0aa7d') in 0.015824 seconds 
-  Import took 0.018418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/UV Tibetan Banners/Material.001_Height.png
-  artifactKey: Guid(819c2761ec8cf9a4690ac13d1ff62f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Banners/Material.001_Height.png using Guid(819c2761ec8cf9a4690ac13d1ff62f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eff9c967cb9cd4ac6d7a9b53c4dee67') in 0.009532 seconds 
-  Import took 0.012266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/UV Tibetan Banners/Material.001_Mixed_AO.png
-  artifactKey: Guid(564fab36887664a45b7ef73894c2cf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Banners/Material.001_Mixed_AO.png using Guid(564fab36887664a45b7ef73894c2cf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db662b8189d7abadcf9760686b7b0ca') in 0.014853 seconds 
-  Import took 0.018857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/UV Tibetan Banners/Material.001_Metallic.png
-  artifactKey: Guid(1927d2a582e800b4d93c010bee30c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Banners/Material.001_Metallic.png using Guid(1927d2a582e800b4d93c010bee30c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45d7ff2d22813f92c406402023c48af') in 0.012957 seconds 
-  Import took 0.015569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.310511 seconds.
-  path: Assets/UV Tibetan Fortified House/DefaultMaterial_Base_Color.png
-  artifactKey: Guid(b329f3a17ec067f4d815e1bd90e542e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Fortified House/DefaultMaterial_Base_Color.png using Guid(b329f3a17ec067f4d815e1bd90e542e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99b509c29450c41f42d11100f21843d') in 0.013810 seconds 
-  Import took 0.017243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/UV Tibetan Fortified House/DefaultMaterial_Height.png
-  artifactKey: Guid(44b440b79e1649c499cc8f8ddc0877f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Fortified House/DefaultMaterial_Height.png using Guid(44b440b79e1649c499cc8f8ddc0877f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fb2aba762c5ce1cc2c617f13aa7733') in 0.012551 seconds 
-  Import took 0.015425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/UV Tibetan Fortified House/DefaultMaterial_Normal_OpenGL.png
-  artifactKey: Guid(104fd20e6690c884dbaa54ca267a6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Fortified House/DefaultMaterial_Normal_OpenGL.png using Guid(104fd20e6690c884dbaa54ca267a6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf0348156d99f7c0e7e6c34cd79a107') in 0.015235 seconds 
-  Import took 0.019572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/UV Tibetan Fortified House/DefaultMaterial_Normal.png
-  artifactKey: Guid(74e5f224a4c83f243868323facc0aa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Fortified House/DefaultMaterial_Normal.png using Guid(74e5f224a4c83f243868323facc0aa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b26036a74d9299302b2a4f47ea4da9') in 0.015770 seconds 
-  Import took 0.018322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/UV Tibetan Fortified House/DefaultMaterial_Metallic.png
-  artifactKey: Guid(42e40dd76bed22046a9ea81d6946e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Fortified House/DefaultMaterial_Metallic.png using Guid(42e40dd76bed22046a9ea81d6946e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7b6927541771f32474c5f4d384a32b') in 0.012948 seconds 
-  Import took 0.015998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/UV Tibetan Fortified House/DefaultMaterial_Mixed_AO.png
-  artifactKey: Guid(aae9affb9689f604f822b9461fd9d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Fortified House/DefaultMaterial_Mixed_AO.png using Guid(aae9affb9689f604f822b9461fd9d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825d2e62780699bfa60efd3d927f6204') in 0.012646 seconds 
-  Import took 0.015554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/UV Tibetan Fortified House/DefaultMaterial_Roughness.png
-  artifactKey: Guid(00a1af114a2f8a140851ab4427060966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Fortified House/DefaultMaterial_Roughness.png using Guid(00a1af114a2f8a140851ab4427060966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe858059a766c7514d746488b251e12') in 0.013988 seconds 
-  Import took 0.016444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 217.291419 seconds.
-  path: Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Base_Color.png
-  artifactKey: Guid(44672c348825e864695d44f1be090004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Base_Color.png using Guid(44672c348825e864695d44f1be090004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6c7c0a3961f2704b8c7ce8245c132a') in 0.012066 seconds 
-  Import took 0.016596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Metallic.png
-  artifactKey: Guid(2dd7a3622b1f5e34ca2aa225dce7de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Metallic.png using Guid(2dd7a3622b1f5e34ca2aa225dce7de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa6fcd725d3f6e0257abce24f585b4c') in 0.010004 seconds 
-  Import took 0.013717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Height.png
-  artifactKey: Guid(b2482e61b69aa9d42b024ad81330ebc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Height.png using Guid(b2482e61b69aa9d42b024ad81330ebc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bc3e0446bb8ee0a7de13f9ad27732e') in 0.013756 seconds 
-  Import took 0.017147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Roughness.png
-  artifactKey: Guid(de5667d211be7b545b65e04cee8ac8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Roughness.png using Guid(de5667d211be7b545b65e04cee8ac8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4e9c556a543defea1b510a265b1b0f') in 0.010563 seconds 
-  Import took 0.014377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Normal.png
-  artifactKey: Guid(34c8612a8d23ef744a20a447df3db2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Normal.png using Guid(34c8612a8d23ef744a20a447df3db2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc55cb67ad4120f091457595320a87fc') in 0.010446 seconds 
-  Import took 0.013463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Mixed_AO.png
-  artifactKey: Guid(746c2baf8d755a54083f7adfc82d4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Mixed_AO.png using Guid(746c2baf8d755a54083f7adfc82d4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a47002a7dd5d92e960c5290edeada9') in 0.011731 seconds 
-  Import took 0.014656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Normal_OpenGL.png
-  artifactKey: Guid(9a4dfc0dd6afa294487576628584070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan WatchTower/UV Tibetan WatchTower_Normal_OpenGL.png using Guid(9a4dfc0dd6afa294487576628584070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2887387f2e3b3b166f371a79d76c0f91') in 0.010922 seconds 
-  Import took 0.013527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.392640 seconds.
-  path: Assets/UV Butter Barrel/DefaultMaterial_Base_Color.png
-  artifactKey: Guid(f7b7420ab88bd74498a2d1cd1d69a0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Butter Barrel/DefaultMaterial_Base_Color.png using Guid(f7b7420ab88bd74498a2d1cd1d69a0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa9cd7cee1a1fdd169801606379b5a6') in 0.009218 seconds 
-  Import took 0.013043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/UV Tibetan Governor House/Material_Base_Color.png
-  artifactKey: Guid(0e1808c7cba17de4f9b2ad0bbf248e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Governor House/Material_Base_Color.png using Guid(0e1808c7cba17de4f9b2ad0bbf248e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda13ddd6dbe0fefec2fad66e75395a2') in 0.010534 seconds 
-  Import took 0.013466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/UV Butter Barrel/DefaultMaterial_Height.png
-  artifactKey: Guid(7339dc9e0708a6f4cb0bd6120e482624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Butter Barrel/DefaultMaterial_Height.png using Guid(7339dc9e0708a6f4cb0bd6120e482624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8c4d2b1704919de762a5f29f7ee0d9') in 0.011177 seconds 
-  Import took 0.015680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/UV Butter Barrel/DefaultMaterial_Normal_OpenGL.png
-  artifactKey: Guid(cb43c12f45c0c4a409fe3140007413b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Butter Barrel/DefaultMaterial_Normal_OpenGL.png using Guid(cb43c12f45c0c4a409fe3140007413b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d3f382a00fc00e0a5ab2636691734e') in 0.012405 seconds 
-  Import took 0.015626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/UV Cargo Bag/Material_Height.png
-  artifactKey: Guid(2dc31b34e8c65114fb22e170374a11c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Cargo Bag/Material_Height.png using Guid(2dc31b34e8c65114fb22e170374a11c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f341ece200a0f90b05ce3695e708d9') in 0.009421 seconds 
-  Import took 0.012183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/UV Cargo Bag/Material_Normal_OpenGL.png
-  artifactKey: Guid(13425787c47ad514099582e1f0a7602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Cargo Bag/Material_Normal_OpenGL.png using Guid(13425787c47ad514099582e1f0a7602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f81e7d51ef8e3985842425359ffe28') in 0.009725 seconds 
-  Import took 0.012705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/UV Tibetan Wagon/DefaultMaterial_Normal.png
-  artifactKey: Guid(1c35f5964354db94aba2a2cd89676416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Wagon/DefaultMaterial_Normal.png using Guid(1c35f5964354db94aba2a2cd89676416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a0ec940ccad50bea1d0dd7056b598a') in 0.010526 seconds 
-  Import took 0.015332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/UV Tibetan Wagon/DefaultMaterial_Roughness.png
-  artifactKey: Guid(faa9a575e7bce84438acb7dbe452cf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Wagon/DefaultMaterial_Roughness.png using Guid(faa9a575e7bce84438acb7dbe452cf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46ab0ec9cbdea6eb954e68e462e9fb2') in 0.013928 seconds 
-  Import took 0.018305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/UV Clothes Hangers/Material.001_Height.png
-  artifactKey: Guid(e65ebe81240dd1340b0d3dadb232f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Clothes Hangers/Material.001_Height.png using Guid(e65ebe81240dd1340b0d3dadb232f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac045f64ffb43c4bf3117c9b5c46d85') in 0.014469 seconds 
-  Import took 0.018474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/UV Tibetan Governor House/Material_Mixed_AO.png
-  artifactKey: Guid(8cb0498735d7c2448aa1ff89f6db2906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Governor House/Material_Mixed_AO.png using Guid(8cb0498735d7c2448aa1ff89f6db2906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30655819922f0d65c359d72aa6cf984') in 0.014566 seconds 
-  Import took 0.018659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/UV Butter Barrel/DefaultMaterial_Metallic.png
-  artifactKey: Guid(d7c7983d6a54f4c4ca84e1d32df4ec57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Butter Barrel/DefaultMaterial_Metallic.png using Guid(d7c7983d6a54f4c4ca84e1d32df4ec57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98e4224a3b788316bbe06d2798f6ee0') in 0.013676 seconds 
-  Import took 0.016925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/UV Tibetan Wagon/DefaultMaterial_Mixed_AO.png
-  artifactKey: Guid(60a5d03170ca49b44834a112c8e7f528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Wagon/DefaultMaterial_Mixed_AO.png using Guid(60a5d03170ca49b44834a112c8e7f528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f859dd0340ea4fe3baf3ad2e3c4e3c') in 0.012108 seconds 
-  Import took 0.016005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/UV Tibetan Wagon/DefaultMaterial_Metallic.png
-  artifactKey: Guid(566297a5c349699479b48b9cd5cb4530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Wagon/DefaultMaterial_Metallic.png using Guid(566297a5c349699479b48b9cd5cb4530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c79daeeb4681aae90a861db7d2a8948') in 0.008673 seconds 
-  Import took 0.012286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/UV Clothes Hangers/Material.001_Normal_OpenGL.png
-  artifactKey: Guid(5ef773ac307b8294e89bc3168285f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Clothes Hangers/Material.001_Normal_OpenGL.png using Guid(5ef773ac307b8294e89bc3168285f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9274a30229fb566f89be823bf79f56ff') in 0.013062 seconds 
-  Import took 0.016602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/UV Clothes Hangers/Material.001_Roughness.png
-  artifactKey: Guid(74ada5ea9aae11349ab99c0659c0dff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Clothes Hangers/Material.001_Roughness.png using Guid(74ada5ea9aae11349ab99c0659c0dff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1213619375f58552e30b17c9a40cb49f') in 0.012987 seconds 
-  Import took 0.016617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/UV Butter Barrel/DefaultMaterial_Roughness.png
-  artifactKey: Guid(c1c0c17f1f2382346b88bdd4528702f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Butter Barrel/DefaultMaterial_Roughness.png using Guid(c1c0c17f1f2382346b88bdd4528702f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab4a73f07895d5c455d8d8d39a76df4') in 0.012942 seconds 
-  Import took 0.016108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/UV Clothes Hangers/Material.001_Normal.png
-  artifactKey: Guid(13ada3eea2b4c7f4e9bd6a4bdcf7745a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Clothes Hangers/Material.001_Normal.png using Guid(13ada3eea2b4c7f4e9bd6a4bdcf7745a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c16103e3be869af7608925f5cd7f91') in 0.013589 seconds 
-  Import took 0.016812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/UV Tibetan Warehouse/DefaultMaterial_Height.png
-  artifactKey: Guid(f4f5dcc0e234ecf45b0a944ae9676da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Warehouse/DefaultMaterial_Height.png using Guid(f4f5dcc0e234ecf45b0a944ae9676da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc7862ec595bbfb1925140bf959860a') in 0.009791 seconds 
-  Import took 0.013164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/UV Tibetan Warehouse/DefaultMaterial_Normal.png
-  artifactKey: Guid(e0a93d5807f61f64d9960386533f5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Warehouse/DefaultMaterial_Normal.png using Guid(e0a93d5807f61f64d9960386533f5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0347b512fa84726e23bce95c168d6e1a') in 0.008880 seconds 
-  Import took 0.012479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/UV Tibetan Wagon/DefaultMaterial_Base_Color.png
-  artifactKey: Guid(6f3427eea9f9c1841aa76c002416b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Wagon/DefaultMaterial_Base_Color.png using Guid(6f3427eea9f9c1841aa76c002416b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2fb1a31d0e07b551a0cad839155c19') in 0.010473 seconds 
-  Import took 0.014183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/UV Tibetan Wagon/DefaultMaterial_Height.png
-  artifactKey: Guid(7af21e96ac29abd41b77cc48d176328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Wagon/DefaultMaterial_Height.png using Guid(7af21e96ac29abd41b77cc48d176328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3252e8a58029bf63421569662773fc') in 0.009342 seconds 
-  Import took 0.012708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/UV Butter Barrel/DefaultMaterial_Normal.png
-  artifactKey: Guid(276dcf9b57a81374c803a5b23b2d51de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Butter Barrel/DefaultMaterial_Normal.png using Guid(276dcf9b57a81374c803a5b23b2d51de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4680829a6bafbe0759cb4d0c3212a4c4') in 0.011936 seconds 
-  Import took 0.015003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/UV Tibetan Governor House/Material_Metallic.png
-  artifactKey: Guid(c604fb54ad17cc14793ded6b84fa9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Governor House/Material_Metallic.png using Guid(c604fb54ad17cc14793ded6b84fa9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f2b8d27875f7ea6239ac320142e196') in 0.010786 seconds 
-  Import took 0.013404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/UV Tibetan Warehouse/DefaultMaterial_Metallic.png
-  artifactKey: Guid(a200dfb9e589ebb4bb904991d7fb53ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Warehouse/DefaultMaterial_Metallic.png using Guid(a200dfb9e589ebb4bb904991d7fb53ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6e71d4f9dc8078eae174248a695107') in 0.006007 seconds 
-  Import took 0.008846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/UV Tibetan Warehouse/DefaultMaterial_Normal_OpenGL.png
-  artifactKey: Guid(1524eedb7b5a64d419a22f1255b29294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Warehouse/DefaultMaterial_Normal_OpenGL.png using Guid(1524eedb7b5a64d419a22f1255b29294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101042cdb9c3312f2e5553eef31acf9f') in 0.009964 seconds 
-  Import took 0.012534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/UV Tibetan Wagon/DefaultMaterial_Normal_OpenGL.png
-  artifactKey: Guid(8fb3cdd6d6412f04db40e7ff5367588c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Wagon/DefaultMaterial_Normal_OpenGL.png using Guid(8fb3cdd6d6412f04db40e7ff5367588c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc42b03a6e30496198208baf023dea4') in 0.008542 seconds 
-  Import took 0.011152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/UV Tibetan Governor House/Material_Normal_OpenGL.png
-  artifactKey: Guid(50f818789eae8bc4eb7bf4ad14252842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Governor House/Material_Normal_OpenGL.png using Guid(50f818789eae8bc4eb7bf4ad14252842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab94130a20d7333f4ec7bfea4bf8d38') in 0.012200 seconds 
-  Import took 0.014888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/UV Tibetan Governor House/Material_Normal.png
-  artifactKey: Guid(a17ffbf268051104dba8449d37ea75f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Governor House/Material_Normal.png using Guid(a17ffbf268051104dba8449d37ea75f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af39432dac5fe45c234fb79cf8c543c2') in 0.010399 seconds 
-  Import took 0.013065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/UV Clothes Hangers/Material.001_Metallic.png
-  artifactKey: Guid(cf4b1d8ea4035ea458e669a990b4d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Clothes Hangers/Material.001_Metallic.png using Guid(cf4b1d8ea4035ea458e669a990b4d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4750586a652a7f2d3902aef600af312') in 0.006196 seconds 
-  Import took 0.008927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/UV Tibetan Warehouse/DefaultMaterial_Base_Color.png
-  artifactKey: Guid(170b5045867b43940890564e53bb17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Warehouse/DefaultMaterial_Base_Color.png using Guid(170b5045867b43940890564e53bb17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb6c781abf1c1e26974e94dc98b09da') in 0.009944 seconds 
-  Import took 0.013077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/UV Cargo Bag/Material_Metallic.png
-  artifactKey: Guid(4434d0aa1a71cb847b43f71e159699ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Cargo Bag/Material_Metallic.png using Guid(4434d0aa1a71cb847b43f71e159699ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9259a3c1f3cfecbee81f2d711bb2ea8') in 0.007247 seconds 
-  Import took 0.010138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/UV Clothes Hangers/Material.001_Base_Color.png
-  artifactKey: Guid(6054c2e66c1239b4293be17921ea83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Clothes Hangers/Material.001_Base_Color.png using Guid(6054c2e66c1239b4293be17921ea83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ede7842ba45201aa0c60a791f907b3c') in 0.011163 seconds 
-  Import took 0.013973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/UV Butter Barrel/DefaultMaterial_Mixed_AO.png
-  artifactKey: Guid(3d7322dff3eb5ab44bd4f29756aa9f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Butter Barrel/DefaultMaterial_Mixed_AO.png using Guid(3d7322dff3eb5ab44bd4f29756aa9f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23773848407bb3b980c4847b523f3267') in 0.009867 seconds 
-  Import took 0.012358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/UV Cargo Bag/Material_Normal.png
-  artifactKey: Guid(fc0b13da3b119584bbc42f7d4a656887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Cargo Bag/Material_Normal.png using Guid(fc0b13da3b119584bbc42f7d4a656887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32634728d34ae1b1d30aaac13cb59eec') in 0.009663 seconds 
-  Import took 0.012087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/UV Cargo Bag/Material_Mixed_AO.png
-  artifactKey: Guid(e4bea23cc7e501143afcc821ee48f944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Cargo Bag/Material_Mixed_AO.png using Guid(e4bea23cc7e501143afcc821ee48f944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f0393f54396f13af41c74dcc5fa119') in 0.009333 seconds 
-  Import took 0.012041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/UV Cargo Bag/Material_Roughness.png
-  artifactKey: Guid(9e1083acee3c830458628544515631d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Cargo Bag/Material_Roughness.png using Guid(9e1083acee3c830458628544515631d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3590a7979577e8f1b57646c9c13ad786') in 0.010886 seconds 
-  Import took 0.013557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/UV Clothes Hangers/Material.001_Mixed_AO.png
-  artifactKey: Guid(c2f5314845be8d14e8d8c9f372141701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Clothes Hangers/Material.001_Mixed_AO.png using Guid(c2f5314845be8d14e8d8c9f372141701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c56f4c422f0761c7f9f34d75d50da2') in 0.008309 seconds 
-  Import took 0.010617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/UV Tibetan Warehouse/DefaultMaterial_Roughness.png
-  artifactKey: Guid(d654a2e46fb7854408e70fe587d30bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Warehouse/DefaultMaterial_Roughness.png using Guid(d654a2e46fb7854408e70fe587d30bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c7509493335a766d86f5cac1d5675f') in 0.009493 seconds 
-  Import took 0.011859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/UV Tibetan Warehouse/DefaultMaterial_Mixed_AO.png
-  artifactKey: Guid(cd23ee12fc9a4804888f7e03f0b8e347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Warehouse/DefaultMaterial_Mixed_AO.png using Guid(cd23ee12fc9a4804888f7e03f0b8e347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1c5063efc03493b424d7b3a4708cf7') in 0.009135 seconds 
-  Import took 0.011690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/UV Tibetan Governor House/Material_Roughness.png
-  artifactKey: Guid(32f0bc7fe4649ab40a77316b7dd22dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Governor House/Material_Roughness.png using Guid(32f0bc7fe4649ab40a77316b7dd22dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa75f24d2577b324151868114686930') in 0.010590 seconds 
-  Import took 0.013282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/UV Cargo Bag/Material_Base_Color.png
-  artifactKey: Guid(db3de7463741b7a40b71e3f11b3c9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Cargo Bag/Material_Base_Color.png using Guid(db3de7463741b7a40b71e3f11b3c9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d1eab2c8d3e68d710c33a19fe710e0') in 0.008477 seconds 
-  Import took 0.010916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/UV Tibetan Governor House/Material_Height.png
-  artifactKey: Guid(66e7881c42cc726449b4f0c037dae117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UV Tibetan Governor House/Material_Height.png using Guid(66e7881c42cc726449b4f0c037dae117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5578d1eeca5cb2bb4bf363a0105e0f81') in 0.009406 seconds 
-  Import took 0.011881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 178.112373 seconds.
-  path: Assets/Tibetan Warehouse V3.0.fbx
-  artifactKey: Guid(4fe8e6f17daa3e149a7e6ec8713399e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Warehouse V3.0.fbx using Guid(4fe8e6f17daa3e149a7e6ec8713399e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd6ef9eba8939b78c1147431496b086') in 0.024533 seconds 
-  Import took 0.029639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.238771 seconds.
-  path: Assets/Tibetan Warehouse V3.0.fbx
-  artifactKey: Guid(4fe8e6f17daa3e149a7e6ec8713399e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tibetan Warehouse V3.0.fbx using Guid(4fe8e6f17daa3e149a7e6ec8713399e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d3b4208e77a6c9c647d5e023946ce7') in 0.014417 seconds 
-  Import took 0.019138 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004235 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1009ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (826ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (331ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.0 MB.
-System memory in use after: 71.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1983.
-Total: 3.396000 ms (FindLiveObjects: 0.135200 ms CreateObjectMapping: 0.048700 ms MarkObjects: 3.174800 ms  DeleteObjects: 0.036200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
